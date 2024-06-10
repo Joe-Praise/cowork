@@ -1,3 +1,3 @@
 export default function index() {
-	return <div className=' h-10 w-full '>Landing Page</div>;
+	return <h1 className=' h-10 w-full'>Landing Page</h1>;
 }
