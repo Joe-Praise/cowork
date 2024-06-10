@@ -25,39 +25,11 @@ const navLinks = [
 */
 
 import { createBrowserRouter } from 'react-router-dom';
-// import Entry from '../src/pages';
 import Landing from '../src/pages/landingPage';
 import About from '../src/pages/about';
 import Pricing from '../src/pages/pricing';
 import Contact from '../src/pages/contact';
 import Blog from '../src/pages/blog';
-
-// export const navLinks = [
-// 	{
-// 		route: '/about',
-// 		label: 'About',
-// 	},
-// 	{
-// 		route: '/pricing',
-// 		label: 'Pricing',
-// 	},
-// 	{
-// 		route: '/blog',
-// 		label: 'Blog',
-// 	},
-// 	{
-// 		route: '/contact',
-// 		label: 'Contact',
-// 	},
-// 	{
-// 		route: '/login',
-// 		label: 'Login',
-// 	},
-// 	{
-// 		route: '/sign-up',
-// 		label: 'Sign up',
-// 	},
-// ];
 
 export const routes = {
 	// entry: {

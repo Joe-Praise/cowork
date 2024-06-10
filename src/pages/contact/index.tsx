@@ -1,5 +1,11 @@
+import PublicLayout from '@/layout/PublicLayout';
+
 const index = () => {
-	return <div>Contact Page</div>;
+	return (
+		<PublicLayout>
+			<div>Contact Page</div>;
+		</PublicLayout>
+	);
 };
 
 export default index;

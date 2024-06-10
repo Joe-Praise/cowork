@@ -80,22 +80,22 @@
 		@apply border-border;
 	}
 	body {
-		@apply bg-background text-foreground font-stardom;
+		@apply bg-background text-foreground;
 	}
 	h1 {
-		@apply text-[48px] md:text-[96px] leading-[120px] md:leading-[100px] font-bold md:tracking-tighter uppercase;
+		@apply text-[48px] md:text-[96px] leading-[120px] md:leading-[100px] font-bold md:tracking-tighter uppercase font-stardom;
 	}
 
 	h2 {
-		@apply text-[32px] md:text-[48px] leading-[120px] font-bold;
+		@apply text-[32px] md:text-[48px] leading-[120px] font-bold font-stardom;
 	}
 
 	h3 {
-		@apply text-[16px] md:text-[24px] leading-[80px] font-bold border;
+		@apply text-[16px] md:text-[24px] leading-[80px] font-bold border font-stardom;
 	}
 
 	.subHeading {
-		@apply text-[16px] md:text-[24px] leading-[100px] font-bold;
+		@apply text-[16px] md:text-[24px] leading-[100px] font-bold font-stardom;
 	}
 
 	p {
