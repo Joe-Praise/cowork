@@ -1,5 +1,7 @@
+import PublicLayout from '@/layout/PublicLayout';
+
 const index = () => {
-	return <div>Pricing Page</div>;
+	return <PublicLayout>Pricing Page</PublicLayout>;
 };
 
 export default index;

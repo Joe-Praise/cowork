@@ -34,6 +34,11 @@ const config = {
 				tertiary: {
 					DEFAULT: 'var(--tertiary)',
 				},
+				button: {
+					primary: 'var(--tertiary)',
+					secondary: 'var(--secondary)',
+					tertiary: 'var(--primary)',
+				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))',
