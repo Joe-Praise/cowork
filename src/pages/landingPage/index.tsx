@@ -1,9 +1,9 @@
-import PublicLayout from '@/layout/PublicLayout';
+// import { BentoWrapper } from '@/components/shared';
 
-export default function index() {
+export default function Index() {
 	return (
-		<PublicLayout>
-			<h1 className=' h-10 w-full'>Landing Page</h1>
-		</PublicLayout>
+		// <BentoWrapper element={'div'} className=''>
+		<h1 className=' w-full'>Landing Page</h1>
+		// </BentoWrapper>
 	);
 }

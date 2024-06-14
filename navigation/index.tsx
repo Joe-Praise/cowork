@@ -30,6 +30,7 @@ import About from '../src/pages/about';
 import Pricing from '../src/pages/pricing';
 import Contact from '../src/pages/contact';
 import Blog from '../src/pages/blog';
+import PublicLayout from '@/layout/PublicLayout';
 
 export const routes = {
 	// entry: {
@@ -59,28 +60,30 @@ export const routes = {
 };
 
 export const router = createBrowserRouter([
-	// {
-	// 	path: '/',
-	// 	element: <Entry />,
-	// },
 	{
-		path: routes.landing.path,
-		element: <Landing />,
-	},
-	{
-		path: routes.about.path,
-		element: <About />,
-	},
-	{
-		path: routes.pricing.path,
-		element: <Pricing />,
-	},
-	{
-		path: routes.contact.path,
-		element: <Contact />,
-	},
-	{
-		path: routes.blog.path,
-		element: <Blog />,
+		path: '/',
+		element: <PublicLayout />,
+		children: [
+			{
+				path: routes.landing.path,
+				element: <Landing />,
+			},
+			{
+				path: routes.about.path,
+				element: <About />,
+			},
+			{
+				path: routes.pricing.path,
+				element: <Pricing />,
+			},
+			{
+				path: routes.contact.path,
+				element: <Contact />,
+			},
+			{
+				path: routes.blog.path,
+				element: <Blog />,
+			},
+		],
 	},
 ]);

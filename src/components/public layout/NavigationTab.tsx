@@ -29,6 +29,7 @@ const NavigationTab = ({ children, setPosition, linkDetails }: NavTabProps) => {
 				'[clip-path:poloygon(0 0, 100% 0, 100% 100%, 0% 100%)] relative overflow-hidden':
 					isMobile,
 			})}
+			onClick={() => openMenu && handleToggleMenu()}
 		>
 			<Link
 				to={route}
@@ -40,7 +41,6 @@ const NavigationTab = ({ children, setPosition, linkDetails }: NavTabProps) => {
 						'underline underline-offset-4': isActive,
 					}
 				)}
-				onClick={() => openMenu && handleToggleMenu}
 			>
 				{children}
 			</Link>

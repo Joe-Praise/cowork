@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom';
 import Logo from './Logo';
-import { navLinks } from '../../constants/index';
-import { Button } from './ui/button';
+import { navLinks } from '../../../constants/index';
+import { Button } from '../ui/button';
 import { useEffect, useRef, useState } from 'react';
 import NavigationTab from './NavigationTab';
 import gsap from 'gsap';

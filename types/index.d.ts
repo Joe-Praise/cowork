@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 
-import { Dispatch, ReactNode } from 'react';
+import { Dispatch, ElementType, ReactNode } from 'react';
 
 declare type SetPositionProps = {
 	left: number;
@@ -20,4 +20,10 @@ declare type NavTabProps = {
 	children: ReactNode;
 	setPosition: Dispatch;
 	linkDetails: NavTabLiDetailsProps;
+};
+
+declare type BentoWrapperProps = {
+	children: ReactNode;
+	element: ElementType;
+	className?: string;
 };

@@ -1,11 +1,5 @@
-import PublicLayout from '@/layout/PublicLayout';
-
-const index = () => {
-	return (
-		<PublicLayout>
-			<div>Blog Page</div>
-		</PublicLayout>
-	);
+const Index = () => {
+	return <div>Blog Page</div>;
 };
 
-export default index;
+export default Index;

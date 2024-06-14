@@ -1,7 +1,5 @@
-import PublicLayout from '@/layout/PublicLayout';
-
-const index = () => {
-	return <PublicLayout>Pricing Page</PublicLayout>;
+const Index = () => {
+	return <h1>Pricing Page</h1>;
 };
 
-export default index;
+export default Index;
